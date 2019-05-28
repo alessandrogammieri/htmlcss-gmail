@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
+
+body {
+  background-image: url(media/sfondo-rovere-scuro.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#block {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  font-family: "Oxygen", sans-serif;
+  color: #ffffff;
+}
+
+.image-size {
+  width: 170px;
+  margin-top: 50px;
+}
+
+.text-gmail {
+  display: inline;
+}
+
+.text-decoration {
+  background-color: orange;
+  border-radius: 50%;
+}
+
+.text-black {
+  color: #000000;
+}
+
+.text-grey {
+  color: #4e4d4d;
+}
+
+.line {
+  background-color: #afadad;
+  border: solid 1px black;
+}
+
+.line strong:before {
+  content: url(media/star.png);
+}
+
+.line-second {
+  background-color: #e8e4e4;
+  border: solid 1px black;
+}
+
+.line-second strong:before {
+  content: url(media/star.png);
+}
+
+h4 {
+  margin: auto;
+  width: 25.3%;
+}

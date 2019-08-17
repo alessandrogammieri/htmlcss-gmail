@@ -29,6 +29,14 @@ body {
   display: inline;
 }
 
+main {
+  margin-top: 5px;
+}
+
+main div h2 {
+  padding: 10px 0;
+}
+
 .text-decoration {
   background-color: orange;
   border-radius: 50%;
@@ -45,6 +53,7 @@ body {
 .line {
   background-color: #afadad;
   border: solid 1px black;
+  padding: 2px;
 }
 
 .line strong:before {
@@ -54,6 +63,7 @@ body {
 .line-second {
   background-color: #e8e4e4;
   border: solid 1px black;
+  padding: 2px;
 }
 
 .line-second strong:before {
@@ -63,4 +73,5 @@ body {
 h4 {
   margin: auto;
   width: 25.3%;
+  padding-top: 20px;
 }
